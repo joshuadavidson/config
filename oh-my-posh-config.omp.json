@@ -8,7 +8,8 @@
     "red": "#fa5a5a",
     "teal": "#0f445b",
     "white": "#F2F2F2",
-    "yellow": "#F3AE35"
+    "yellow": "#F3AE35",
+    "test": "#fa5a5a"
   },
   "secondary_prompt": {
     "template": "<p:yellow,transparent>\ue0b6</><,p:yellow> > </><p:yellow,transparent>\ue0b0</> ",
@@ -51,7 +52,7 @@
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \udb80\udd93 {{ .StashCount }}{{ end }} ",
           "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
-          "background": "p:teal",
+          "background": "p:blue",
           "type": "git",
           "style": "powerline",
           "background_templates": [
